@@ -12,6 +12,6 @@ const router = express.Router()
 // router.route('/').get(protect, getGoals).post(protect, setGoal)
 // router.route('/:id').delete(protect, deleteGoal).put(protect, updateGoal)
 router.get('/',(req,res)=>{
-    res.send('hello from goals')
+    res.status(200).json({message: 'this goals'})
 })
 module.exports = router
