@@ -4,7 +4,7 @@ import { FaUser} from 'react-icons/fa'
 
 function Register() {
   const [formData,setFormData] = useState({
-    name: ' ',
+    name: '',
     email: '',
     password: '',
     password2: ''
@@ -49,7 +49,7 @@ const onSubmit = (e) =>{
      id='name' 
      name='name'
      value = {name} 
-     placeholder = 'Enter Your Name'
+     placeholder = ' Enter Your Name '
      onChange = {onChange}  
      
 
