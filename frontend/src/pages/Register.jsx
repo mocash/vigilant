@@ -44,12 +44,12 @@ const onSubmit = (e) =>{
     <div className='form-group'>
 
 <input 
-     type= 'text'
+     type="text"
      className='form-control' 
      id='name' 
      name='name'
      value = {name} 
-     placeholder = 'Enter You Names'
+     placeholder = 'Enter Your Name'
      onChange = {onChange}  
      
 
@@ -70,7 +70,7 @@ const onSubmit = (e) =>{
 
       />
 
-    </div>
+    </div>  
 
     <div className='form-group'>
 
@@ -102,7 +102,7 @@ const onSubmit = (e) =>{
       />
 
     </div>
-    <div className='form-group'>
+    <div className='form-group'> 
       <button className='btn btn-block' >Register</button>
     </div>
     </form>
